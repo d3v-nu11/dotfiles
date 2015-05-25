@@ -110,6 +110,8 @@ if ! shopt -oq posix; then
   fi
 fi
 
+export EDITOR=vim
+
 
 # cd && ls
 function cd {

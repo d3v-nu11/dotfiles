@@ -2,7 +2,7 @@
 ############################
 
 dir=$PWD
-files="bashrc vimrc vim Xdefaults"
+files="bashrc vimrc vim Xdefaults tmux.conf bash_aliases"
 
 for file in $files; do
   rm -rf ~/.$file
