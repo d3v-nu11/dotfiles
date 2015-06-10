@@ -110,6 +110,7 @@ if ! shopt -oq posix; then
   fi
 fi
 
+
 export EDITOR=vim
 
 

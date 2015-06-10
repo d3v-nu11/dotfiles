@@ -17,3 +17,5 @@ if [ -d ~/.$file ]; then
   cd bundle/gruvbox
   ./gruvbox_256palette.sh
 fi
+
+xrdb ~/.Xdefaults
