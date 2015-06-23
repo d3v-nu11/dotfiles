@@ -1,4 +1,3 @@
-filetype off
 syntax enable
 
 set expandtab
@@ -72,3 +71,6 @@ filetype plugin indent on
 let g:netrw_liststyle=3
 
 autocmd FileType python setlocal shiftwidth=4 tabstop=4
+
+autocmd FileType python compiler pylint
+let g:pylint_show_rate = 0
