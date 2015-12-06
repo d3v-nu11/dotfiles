@@ -1,7 +1,7 @@
 syntax enable
 
 set expandtab
-set shiftwidth=2
+set shiftwidth=4
 set background=dark
 set showmatch
 set iskeyword-=_

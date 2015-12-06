@@ -31,8 +31,12 @@ Xcursor.theme:    Vanilla-DMZ-AA
 
 !urxvt fonts: 
 
-URxvt*font: xft:Monospace:pixelsize=15
-URxvt*boldFont: xft:Monospace:bold:pixelsize=15
+!URxvt*font: xft:Monospace:pixelsize=15
+!URxvt*boldFont: xft:Monospace:bold:pixelsize=15
+URxvt*font: xft:Ubuntu Mono:size=14:style=regular"
+URxvt*bold: xft:Ubuntu Mono:size=14:style=bold"
+!URxvt*letterSpace: -1
+
 
 !urxvt extensions:
 
@@ -63,3 +67,5 @@ URxvt.tabbed.tab-bg: 8
 URxvt.tabbed.autohide:  yes
 URxvt.tabbed.new-button:  no
 URxvt.tabbed.title: no
+
+URxvt*iconFile: /usr/share/icons/Faenza/apps/64/terminal.png
